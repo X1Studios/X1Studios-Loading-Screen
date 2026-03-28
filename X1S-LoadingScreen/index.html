@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Loading</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="background"></div>
+
+<!-- LEFT PANEL -->
+
+<div class="panel left">
+
+<div class="logoBox">
+
+<img src="img/logo.png">
+<h1 id="serverName"></h1>
+<p id="serverDesc"></p>
+
+</div>
+
+<div class="infoBox">
+
+<h3 id="welcomeTitle"></h3>
+<p id="welcomeDesc"></p>
+</div>
+
+</div>
+
+
+<!-- CENTER -->
+
+<div class="center">
+
+<img class="mainLogo" src="img/logo.png">
+
+<h2>LOADING</h2>
+
+<p>Preparing your roleplay experience...</p>
+
+<div class="loadingBar">
+<div class="progress"></div>
+</div>
+
+<span id="loadingText">Loading assets...</span>
+
+</div>
+
+
+<!-- RIGHT PANEL -->
+
+<div class="panel right">
+
+<h3>Staff Team</h3>
+
+<div id="staffList"></div>
+
+</div>
+
+
+<!-- SOCIAL BUTTONS -->
+
+<div class="socialContainer">
+
+<div class="socialBar">
+
+<img src="img/discord.png" id="discordBtn" class="socialIcon">
+<img src="img/youtube.png" id="youtubeBtn" class="socialIcon">
+<img src="img/website.png" id="websiteBtn" class="socialIcon">
+
+</div>
+
+</div>
+
+
+<!-- AUDIO CONTROLS -->
+
+<div class="audioControls">
+
+<img id="prevBtn" src="img/previous.png" class="audioButton">
+
+<img id="playPause" src="img/pause.png" class="audioButton">
+
+<img id="nextBtn" src="img/next.png" class="audioButton">
+
+<div class="songInfo">
+<span id="songTitle">Loading...</span>
+<span id="songArtist"></span>
+</div>
+
+<input type="range" id="volume" min="0" max="1" step="0.05">
+
+</div>
+
+<audio id="music"></audio>
+
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
